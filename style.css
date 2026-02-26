@@ -1,0 +1,92 @@
+        :root {
+            --primary-blue: #007bff;
+            --dark-blue: #0056b3;
+            --light-gray: #f8f9fa;
+            --text-muted: #6c757d;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fff;
+            color: #333;
+        }
+
+        /* Header & Nav */
+        .header-top { padding: 15px 0; border-bottom: 1px solid #eee; }
+        .search-box { max-width: 600px; width: 100%; }
+        .navbar { padding: 10px 0; border-bottom: 1px solid #eee; }
+        .nav-link { font-weight: 500; color: #333 !important; font-size: 14px; text-transform: uppercase; }
+        .badge-sale { background-color: #20c997; font-size: 10px; padding: 2px 5px; border-radius: 3px; color: white; vertical-align: super; }
+        .badge-hot { background-color: #ff4757; font-size: 10px; padding: 2px 5px; border-radius: 3px; color: white; vertical-align: super; }
+
+        /* Banner Styles */
+        .hero-banner {
+            background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover; background-position: center; border-radius: 12px; height: 450px; display: flex; align-items: center; color: white; padding: 40px; position: relative;
+        }
+        .hero-badge { background: #ff4757; padding: 5px 15px; border-radius: 5px; font-size: 12px; font-weight: bold; display: inline-block; margin-bottom: 15px; }
+
+        .side-banner { height: 215px; border-radius: 12px; padding: 20px; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden; background-color: #eef2f7; margin-bottom: 20px; }
+        .side-banner img { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); width: 140px; }
+
+        /* Feature Icons */
+        .feature-box { border: 1px solid #eee; border-radius: 10px; padding: 20px; display: flex; align-items: center; gap: 15px; height: 100%; }
+        .feature-box i { font-size: 24px; color: var(--primary-blue); }
+
+        /* Category Card */
+        .cat-card { text-align: center; padding: 20px; border: 1px solid transparent; transition: 0.3s; cursor: pointer; }
+        .cat-image-wrapper { background: #f8f9fa; border-radius: 10px; padding: 30px; margin-bottom: 15px; }
+        .cat-card img { width: 100%; max-width: 120px; height: 100px; object-fit: contain; }
+
+        /* Product Card */
+        .product-card { border: 1px solid #eee; border-radius: 10px; padding: 15px; position: relative; transition: 0.3s; background: #fff; }
+        .product-img { height: 180px; display: flex; align-items: center; justify-content: center; margin-bottom: 10px; }
+        .product-img img { max-width: 100%; max-height: 100%; object-fit: contain; }
+        .sale-tag { position: absolute; top: 10px; left: 10px; background: var(--primary-blue); color: white; padding: 2px 8px; font-size: 11px; border-radius: 3px; z-index: 1; }
+        .price { font-weight: bold; font-size: 18px; }
+        .old-price { text-decoration: line-through; color: #999; font-size: 14px; margin-right: 5px; }
+        .rating { color: #ffc107; font-size: 12px; }
+
+        /* Brand Logos */
+        .brand-logo-card { border: 1px solid #eee; border-radius: 8px; padding: 20px; display: flex; align-items: center; justify-content: center; height: 80px; transition: 0.3s; filter: grayscale(1); opacity: 0.6; }
+        .brand-logo-card:hover { filter: grayscale(0); opacity: 1; border-color: var(--primary-blue); }
+        .brand-logo-card h5 { margin: 0; font-weight: bold; color: #555; }
+
+        /* Promo Banner Blue (Unbeatable Desktop Deals) */
+        .promo-banner-alt { background-color: #e3f2fd; border-radius: 12px; padding: 40px; display: flex; align-items: center; margin-top: 50px; overflow: hidden; position: relative; }
+        .promo-banner-alt img { max-width: 60%; }
+
+        /* Ultra Portable Sidebar Promo (Tablet image) */
+        .ultra-portable-banner { background-color: #f1f6ff; border-radius: 12px; padding: 30px; text-align: center; height: 100%; position: relative; overflow: hidden; }
+        .ultra-portable-banner img { width: 100%; transform: rotate(-10deg) translateY(20px); margin-top: 20px; }
+
+        /* Articles / Blog Card */
+        .article-card { border: none; margin-bottom: 30px; }
+        .article-card img { border-radius: 12px; height: 200px; object-fit: cover; margin-bottom: 15px; }
+        .article-card h6 { font-weight: 700; line-height: 1.4; }
+        .article-card p { font-size: 13px; color: #777; }
+
+        /* Newsletter Bar */
+        .newsletter-bar { background-color: #007bff; color: white; padding: 40px 0; border-radius: 0; margin-top: 60px; }
+        .newsletter-bar h4 { margin-bottom: 5px; }
+        .newsletter-bar p { margin-bottom: 0; opacity: 0.8; }
+
+        /* Footer */
+        footer { padding: 60px 0 20px; border-top: 1px solid #eee; }
+        footer h6 { font-weight: 700; margin-bottom: 20px; }
+        footer ul { list-style: none; padding: 0; }
+        footer ul li { margin-bottom: 10px; }
+        footer ul li a { text-decoration: none; color: #666; font-size: 14px; }
+        footer ul li a:hover { color: var(--primary-blue); }
+        .social-icons a { margin-right: 15px; color: #333; font-size: 18px; }
+
+        /* Section Titles */
+        .section-title { display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; margin-top: 50px; }
+        .section-title h2 { font-size: 22px; font-weight: 700; }
+        .view-all { color: #333; text-decoration: none; font-size: 14px; }
+
+        @media (max-width: 768px) {
+            .hero-banner { height: 300px; padding: 20px; }
+            .promo-banner-alt { flex-direction: column; text-align: center; }
+            .promo-banner-alt img { max-width: 100%; margin-top: 20px; }
+        }

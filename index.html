@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechShop - The World's Largest Online Store</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!--css style-->
+    <link rel="stylesheet"href="style.css">
+
+</head>
+<body>
+
+    <!-- Header & Nav (Same as previous) -->
+    <header class="header-top bg-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-2 col-6"><h3 class="fw-bold mb-0" style="color: #0056b3;">Tech<span class="text-dark">Shop</span></h3></div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <div class="input-group search-box mx-auto">
+                        <button class="btn btn-outline-secondary dropdown-toggle" type="button">All Categories</button>
+                        <input type="text" class="form-control" placeholder="Search products...">
+                        <button class="btn btn-primary px-4" type="button">Search</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-6 text-end">
+                    <div class="d-flex align-items-center justify-content-end gap-3">
+                        <i class="fa-regular fa-heart fs-4 d-none d-lg-block"></i>
+                        <div class="d-flex align-items-center gap-2"><i class="fa-regular fa-user fs-4"></i><strong>Login</strong></div>
+                        <div class="d-flex align-items-center gap-2"><i class="fa-solid fa-cart-shopping fs-4 text-primary"></i><strong>$0.00</strong></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container">
+            <button class="btn btn-dark d-flex align-items-center gap-2 me-4 d-none d-lg-flex"><i class="fa-solid fa-bars"></i> All Categories</button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav gap-lg-3">
+                    <li class="nav-item"><a class="nav-link text-primary" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Categories <span class="badge-sale">SALE</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Products <span class="badge-hot">HOT</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Top Deals</a></li>
+                </ul>
+            </div>
+            <div class="ms-auto"><span class="text-danger fw-bold small"><i class="fa-solid fa-percent"></i> Super Discount</span></div>
+        </div>
+    </nav>
+
+    <main class="container py-4">
+        
+        <!-- Hero Section (image_70a360.jpg part) -->
+        <div class="row g-4">
+            <div class="col-lg-8">
+                <div class="hero-banner">
+                    <div class="content w-50">
+                        <span class="hero-badge">Weekend Discount</span>
+                        <h1 class="display-5 fw-bold mb-3">The World' largest Online Store</h1>
+                        <p class="mb-4">Last call for up to <strong class="fs-4">40%</strong> off!</p>
+                        <a href="#" class="btn btn-primary px-4 py-2">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="side-banner">
+                    <div class="w-60"><h5 class="fw-bold">Pure Connect</h5><p class="text-muted small">USB 3 Rechargeable</p><a href="#" class="text-dark fw-bold small">Shop Now</a></div>
+                    <img src="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=300" alt="Audio">
+                </div>
+                <div class="side-banner">
+                    <div class="w-60"><h5 class="fw-bold">Crystal Clear</h5><p class="text-muted small">Up to 25% OFF</p><a href="#" class="text-dark fw-bold small">Shop Now</a></div>
+                    <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=300" alt="Phone">
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2: Unbeatable Desktop Deals (image_709915.png part) -->
+        <div class="promo-banner-alt">
+            <div class="flex-grow-1">
+                <p class="text-danger mb-1 fw-bold">Limited Time Offer!</p>
+                <h2 class="display-6 fw-bold mb-3">Unbeatable Desktop Deals</h2>
+                <p class="text-muted mb-4">Unleash Wireless Sound Freedom</p>
+                <a href="#" class="btn btn-primary px-4">Shop Now</a>
+            </div>
+            <img src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500" alt="Tablet">
+        </div>
+
+        <!-- Section 3: Popular Brands (Top of image_709855.png) -->
+        <div class="section-title">
+            <h2 class="fw-bold">Popular Brands</h2>
+        </div>
+        <div class="row row-cols-2 row-cols-md-5 g-3">
+            <div class="col"><div class="brand-logo-card"><h5>amazon</h5></div></div>
+            <div class="col"><div class="brand-logo-card"><h5>AMD</h5></div></div>
+            <div class="col"><div class="brand-logo-card"><h5>facebook</h5></div></div>
+            <div class="col"><div class="brand-logo-card"><h5>logitech</h5></div></div>
+            <div class="col"><div class="brand-logo-card"><h5>apper</h5></div></div>
+            <div class="col"><div class="brand-logo-card"><h5>hooli</h5></div></div>
+            <div class="col"><div class="brand-logo-card"><h5>FedEx</h5></div></div>
+            <div class="col"><div class="brand-logo-card"><h5>PayPal</h5></div></div>
+            <div class="col"><div class="brand-logo-card"><h5>NETFLIX</h5></div></div>
+            <div class="col"><div class="brand-logo-card"><h5>Spotify</h5></div></div>
+        </div>
+
+        <!-- Section 4: Ultimate Tech Gadget -->
+        <div class="section-title">
+            <h2 class="fw-bold">Ultimate Tech Gadget</h2>
+            <a href="#" class="view-all">View All <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-9">
+                <div class="row row-cols-1 row-cols-md-4 g-3">
+                    <!-- Gadget grid loop -->
+                    <div class="col">
+                        <div class="product-card h-100">
+                            <div class="product-img"><img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=200" alt="Watch"></div>
+                            <h6 class="small fw-bold">Raptag Screen Guard For Apple...</h6>
+                            <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <div class="price small"><span class="old-price">$2,000</span> $1,900</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card h-100">
+                            <div class="product-img"><img src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=200" alt="Tablet"></div>
+                            <h6 class="small fw-bold">Lenovo Tab M9 Tablet 4 GB...</h6>
+                            <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <div class="price small">$144 - $150</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card h-100">
+                            <div class="product-img"><img src="https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=200" alt="Mouse"></div>
+                            <h6 class="small fw-bold">Logitech M350 WHITE Optical...</h6>
+                            <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <div class="price small">$299</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card h-100">
+                            <div class="product-img"><img src="https://images.unsplash.com/photo-1544006659-f0b21f04cb1d?w=200" alt="Watch"></div>
+                            <h6 class="small fw-bold">SwapME Braided Nylon Woven...</h6>
+                            <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <div class="price small">$300</div>
+                        </div>
+                    </div>
+                    <!-- Row 2 -->
+                    <div class="col">
+                        <div class="product-card h-100">
+                            <div class="product-img"><img src="https://images.unsplash.com/photo-1589492477829-5e65395b66cc?w=200" alt="HomePod"></div>
+                            <h6 class="small fw-bold">Apple HomePod Assistant...</h6>
+                            <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <div class="price small">$397</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card h-100">
+                            <div class="product-img"><img src="https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=200" alt="Controller"></div>
+                            <h6 class="small fw-bold">Microware 9 Cap DualSense...</h6>
+                            <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <div class="price small">$200</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card h-100">
+                            <div class="product-img"><img src="https://images.unsplash.com/photo-1585333120167-081824d71578?w=200" alt="Speaker"></div>
+                            <h6 class="small fw-bold">Google Home Smart Voice...</h6>
+                            <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <div class="price small">$300</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card h-100">
+                            <span class="sale-tag">New</span>
+                            <div class="product-img"><img src="https://images.unsplash.com/photo-1520923179274-032870428d4a?w=200" alt="Phone"></div>
+                            <h6 class="small fw-bold">Jayat J2 - Feature Phone...</h6>
+                            <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <div class="price small"><span class="old-price">$2,000</span> $1,500</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="ultra-portable-banner">
+                    <h4 class="fw-bold mt-3">Ultra Portable</h4>
+                    <p class="small text-muted mb-4">Vibrant Colors with Rugged Fabric Design</p>
+                    <a href="#" class="btn btn-primary rounded-pill px-4 mb-5">Explore More</a>
+                    <img src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=300" alt="Tablet Feature">
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 5: From Our Articles -->
+        <div class="section-title">
+            <h2 class="fw-bold">From Our Articles</h2>
+            <a href="#" class="view-all">View All <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="article-card">
+                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400" class="w-100" alt="Post">
+                    <h6>How to Write a Blog Post Your Readers Will Love in 5 Steps</h6>
+                    <p>Why the world would end without travel coupons. The 10 worst...</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="article-card">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400" class="w-100" alt="Post">
+                    <h6>9 Content Marketing Trends and Ideas to Increase Traffic</h6>
+                    <p>Why do people think wholesale accessories are a good idea? Unbelievable...</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="article-card">
+                    <img src="https://images.unsplash.com/photo-1523381235312-3f113d27dea3?w=400" class="w-100" alt="Post">
+                    <h6>The Ultimate Guide to Marketing Strategies to Improve Sales</h6>
+                    <p>Many things about electronic devices your kids don't want you to...</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="article-card">
+                    <img src="https://images.unsplash.com/photo-1534349762230-e0cadf78f505?w=400" class="w-100" alt="Post">
+                    <h6>50 Best Sales Questions to Determine Your Customer's Needs</h6>
+                    <p>The unconventional guide to the software applications. Why do people think...</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Newsletter Bar -->
+    <div class="newsletter-bar mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 d-flex align-items-center gap-3">
+                    <i class="fa-regular fa-paper-plane fs-1"></i>
+                    <div>
+                        <h4 class="fw-bold mb-0">Join our newsletter and get $20 discount!</h4>
+                        <p class="small">Get E-mail updates about our latest shop and special offers.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-3 mt-lg-0">
+                    <div class="input-group">
+                        <input type="text" class="form-control py-2" placeholder="Your email address...">
+                        <button class="btn btn-dark px-4 py-2 fw-bold" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3">
+                    <h6 class="mb-4 text-dark">Contact Us</h6>
+                    <p class="text-primary fw-bold fs-5 mb-1">(+00) 123-456-789</p>
+                    <p class="text-muted small mb-3">99 New Theme ST. XY, USA 12345, Beside the Sun point land.</p>
+                    <a href="mailto:demo@example.com" class="text-dark fw-bold small text-decoration-none">demo@example.com</a>
+                    <div class="social-icons mt-4">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h6>Get to know Us</h6>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Term & Policy</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">News & Blog</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h6>Information</h6>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Feedback</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">Payments</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h6>Orders & Returns</h6>
+                    <ul>
+                        <li><a href="#">Track Order</a></li>
+                        <li><a href="#">Delivery</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Exchange</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h6>Our Store</h6>
+                    <ul>
+                        <li><a href="#">Affiliate</a></li>
+                        <li><a href="#">Best Seller</a></li>
+                        <li><a href="#">New Products</a></li>
+                        <li><a href="#">On Sale</a></li>
+                        <li><a href="#">Featured</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
